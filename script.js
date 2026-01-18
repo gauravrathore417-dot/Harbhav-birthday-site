@@ -7,7 +7,8 @@ function scrollNext() {
 
 // Set your mom's birthday here
 // Format: new Date("YYYY-MM-DDTHH:MM:SS")
-const birthday = new Date("2025-01-18T23:52:00");
+const birthday = new Date();
+
 
 // Update timer
 function updateTimer() {
