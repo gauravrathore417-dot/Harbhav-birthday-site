@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.screen1 {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
+
+.screen2 {
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+}
+
+.screen3 {
+  background: linear-gradient(135deg, #fbc8d4, #9795f0);
+}
+
+h1, h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+p {
+  color: white;
+  font-size: 1.2rem;
+  max-width: 400px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 20px;
+  background: white;
+  color: #ff4081;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.timer {
+  display: flex;
+  gap: 15px;
+}
+
+.timer div {
+  background: rgba(255,255,255,0.3);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.timer span {
+  font-size: 2rem;
+  color: white;
+}
+
+#confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
